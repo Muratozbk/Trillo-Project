@@ -391,13 +391,13 @@
     &__item::before {
         content: "";
         display: inline-block;
-        height: 1rem;
-        width: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
         margin-right: .7rem;
 
         // background-image: url(/img/chevron-thin-right.svg);
         // background-size: cover;
-        background-color: var(--color-primary);
+        background-color: var(--color-primary-dark);
         -webkit-mask-image: url(/img/chevron-thin-right.svg);
         -webkit-mask-size: cover;
     }
